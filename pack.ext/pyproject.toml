@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "pack.ext"
+version = "0.0.1"
+dependencies = [
+    "pack.core",
+]
+
+[project.scripts]
+pack-ext = "pack.ext.main:main"

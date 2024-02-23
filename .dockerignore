@@ -1,0 +1,12 @@
+*.vscode
+*.venv
+*.egg-info
+*.pytest_cache
+*.ruff_cache
+**/dist
+**/build
+**/__pycache__
+**/Dockerfile
+scripts
+python:3.11.0-uv
+.git
